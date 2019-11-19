@@ -31,3 +31,22 @@ print(sorted(array1))
 array2=['3','3.12','1.05','h','3.90','A','H','b']
 print(len(array2))
 print(sorted(array2))
+
+
+#user-defined funtions
+
+def first_funciton():
+    a="defferently spaced"
+    print(a+" Hi")
+
+def second_funciton(name,age):
+    sentence="Hi my name is " + name + " and I am " + str(age) + " years old"
+    print(sentence)
+
+first_funciton()
+second_funciton("James",23)
+
+def gossip_function(topic="random goss",area="world"):
+    print(topic,"is the hottest story in the", area)
+
+gossip_function( None ,"Tommy's nipple hair")
