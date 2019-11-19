@@ -1,3 +1,5 @@
+#/intro to obkjects, statements, variables etc
+
 print('helloworld')
 
 ##concatenate practice
@@ -17,8 +19,15 @@ print(a1)
 
 print( "I struggled with Question "+["b",'c','d'][1])
 
-#Library practice
+#Dictionary practice
 
 lib1= {"name":"James","age": 23,'hobby':"python"}
 
-print(lib1["James"])
+print(lib1["name"])
+
+array1 = [13,23,4,423,52,43,10,15]
+print(len(array1))
+print(sorted(array1))
+array2=['3','3.12','1.05','h','3.90','A','H','b']
+print(len(array2))
+print(sorted(array2))
