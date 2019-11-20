@@ -46,7 +46,28 @@ def second_funciton(name,age):
 first_funciton()
 second_funciton("James",23)
 
-def gossip_function(topic="random goss",area="world"):
+def gossip_function(topic="random goss",area="world"):  #defing a funciton with KEYWORD arguments
     print(topic,"is the hottest story in the", area)
 
-gossip_function( None ,"Tommy's nipple hair")
+gossip_function( "Tommy's nipple hair")     #example of referencing first argument
+gossip_function(area="the universe")        #referencing second argument
+
+
+#testing loops
+
+temp_array=["sausage","fennel", "aching","tempest"]
+
+bool_practice=True
+bool_practice2=bool(1)
+
+while bool_practice: #bool practice = True so this condition is effective checking if 1==1 or True==Ture
+    print(temp_array[1])
+    bool_practice = False
+
+# The below doesn't work it struggles to turn bool_practice2 into a false statement
+# while bool_practice2:
+#     print(temp_array[0])
+#     bool_practice = bool(0)
+
+for index in temp_array:
+    print("I am a silly",index)
