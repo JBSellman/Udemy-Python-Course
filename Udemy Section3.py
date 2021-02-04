@@ -7,8 +7,6 @@ import random
 
 # Firstly, we will build a city battle program to emulate some cool wars
 
-##new comment to test ssh key
-
 population = 520
 player_atk_l = 35
 player_atk_h = 50
